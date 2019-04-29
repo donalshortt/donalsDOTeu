@@ -19,9 +19,9 @@
     cursor: pointer;
 }
 
-.projectNameContainer:hover .projIcon {
+/*.projectNameContainer:hover .projIcon {
     content: url("../images/triangularIcon.svg");
-}
+}*/
 
 #proj1 {
     opacity: 0;
