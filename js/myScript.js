@@ -46,10 +46,9 @@ function AddOnloadEvent(f) {
 AddOnloadEvent(startTime);
 AddOnloadEvent(getDate);
 
-// handles the animation in the project window
+// handles the projects list fade-in animation in the project window
 
 $(document).ready(function() {
-    console.log("OOF");
     $("#projectsTitle").animate({
         opacity: 1
     }, {
@@ -191,4 +190,12 @@ $(document).ready(function() {
         },
         queue: false
     });
+});
+
+// handles the
+
+$('#proj1').on({
+    'mouseover': function(){
+        $('#projIcon1').attr('src','../images/triangularIcon.svg');
+    }
 });
