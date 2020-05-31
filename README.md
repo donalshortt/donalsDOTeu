@@ -1,2 +1,2 @@
 # donalsDOTeu
-repo for my personal website
+old design for my personal website
